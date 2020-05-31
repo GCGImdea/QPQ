@@ -3,7 +3,7 @@
 
 # In[ ]:
 
-# VERSION 2020/02/19 11:45
+# VERSION 2020/05/31 09:15
 
 import math
 import time
@@ -165,7 +165,7 @@ def doSimulation(numplayers, numLiars, numclusters, betaf, thresholdFunct, histo
         liarsPos = np.full(numplayers, False)
 
         if (numLiars > 0):
-            liarsPos[numLiars:] = True
+            liarsPos[:numLiars] = True
             np.random.shuffle(liarsPos)
             norm = stats.distributions.beta(betaf, 1)
             declaredVals[liarsPos, :] = norm.ppf(trueVals[liarsPos, :])
