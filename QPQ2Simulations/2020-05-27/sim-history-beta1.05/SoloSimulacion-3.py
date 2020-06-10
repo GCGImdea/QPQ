@@ -165,7 +165,7 @@ def doSimulation(numplayers, numLiars, numclusters, betaf, thresholdFunct, histo
         liarsPos = np.full(numplayers, False)
 
         if (numLiars > 0):
-            liarsPos[numLiars:] = True
+            liarsPos[:numLiars] = True
             np.random.shuffle(liarsPos)
             norm = stats.distributions.beta(betaf, 1)
             declaredVals[liarsPos, :] = norm.ppf(trueVals[liarsPos, :])
