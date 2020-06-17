@@ -3,7 +3,7 @@
 
 # In[ ]:
 
-# VERSION 2020/05/31 09:15
+# VERSION 2020/02/19 11:45
 
 import math
 import time
@@ -234,7 +234,7 @@ dir = './results'
 numberSimulations = 50
 
 # History length
-historyLenArray = [100] 
+historyLenArray = [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000] 
 alpha = 1 
 
 
@@ -242,10 +242,10 @@ alpha = 1
 numplayersArray = [64]
 
 # betafactor (dishonest beta factor) Array
-betafactorArray = [1.2]
+betafactorArray = [1.1]
 
 # Number of Liars
-numLiarsArray = [0, 1, 2, 3, 4, 5, 6, 7, 8]
+numLiarsArray = [1]
 
 # Number of clusters
 numclustersArray = [8]
