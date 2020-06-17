@@ -245,8 +245,7 @@ numplayersArray = [64]
 betafactorArray = [1.2]
 
 # Number of Liars
-# numLiarsArray = [0, 1, 2, 3, 4, 5, 6, 7, 8]
-numLiarsArray = [5, 6, 7, 8]
+numLiarsArray = [0, 1, 2, 3, 4, 5, 6, 7, 8]
 
 # Number of clusters
 numclustersArray = [8]
