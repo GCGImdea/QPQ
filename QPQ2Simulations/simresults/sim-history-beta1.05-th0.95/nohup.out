@@ -254,4 +254,260 @@ Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor = 
 Simulation number = 0
 Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  100
     Using historyLen at QPQ =  100
+    Using historyLen L0 at QPQ2 = 400  and historyLen L1 at QPQ2 = 400Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  100
+    Using historyLen at QPQ =  100
+    Using historyLen L0 at QPQ2 = 400  and historyLen L1 at QPQ2 = 400
+    Using threshold at QPQ = 0.95
+    Using threshold L0 at QPQ2 = 0.9692708215318152  and threshold L1 at QPQ2 = 0.9692708215318152
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  200
+    Using historyLen at QPQ =  200
+    Using historyLen L0 at QPQ2 = 800  and historyLen L1 at QPQ2 = 800
+    Using threshold at QPQ = 0.9607783157958886
+    Using threshold L0 at QPQ2 = 0.9759475239000507  and threshold L1 at QPQ2 = 0.9759475239000507
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  300
+    Using historyLen at QPQ =  300
+    Using historyLen L0 at QPQ2 = 1200  and historyLen L1 at QPQ2 = 1200
+    Using threshold at QPQ = 0.9659912130438761
+    Using threshold L0 at QPQ2 = 0.9791661626669959  and threshold L1 at QPQ2 = 0.9791661626669959
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  100
+    Using historyLen at QPQ =  100
+    Using historyLen L0 at QPQ2 = 400  and historyLen L1 at QPQ2 = 400
+    Using threshold at QPQ = 0.95
+    Using threshold L0 at QPQ2 = 0.9692708215318152  and threshold L1 at QPQ2 = 0.9692708215318152
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  200
+    Using historyLen at QPQ =  200
+    Using historyLen L0 at QPQ2 = 800  and historyLen L1 at QPQ2 = 800
+    Using threshold at QPQ = 0.9607783157958886
+    Using threshold L0 at QPQ2 = 0.9759475239000507  and threshold L1 at QPQ2 = 0.9759475239000507
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  300
+    Using historyLen at QPQ =  300
+    Using historyLen L0 at QPQ2 = 1200  and historyLen L1 at QPQ2 = 1200
+    Using threshold at QPQ = 0.9659912130438761
+    Using threshold L0 at QPQ2 = 0.9791661626669959  and threshold L1 at QPQ2 = 0.9791661626669959
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  100
+    Using historyLen at QPQ =  100
+    Using historyLen L0 at QPQ2 = 400  and historyLen L1 at QPQ2 = 400
+    Using threshold at QPQ = 0.95
+    Using threshold L0 at QPQ2 = 0.9692708215318152  and threshold L1 at QPQ2 = 0.9692708215318152
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  200
+    Using historyLen at QPQ =  200
+    Using historyLen L0 at QPQ2 = 800  and historyLen L1 at QPQ2 = 800
+    Using threshold at QPQ = 0.9607783157958886
+    Using threshold L0 at QPQ2 = 0.9759475239000507  and threshold L1 at QPQ2 = 0.9759475239000507
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  300
+    Using historyLen at QPQ =  300
+    Using historyLen L0 at QPQ2 = 1200  and historyLen L1 at QPQ2 = 1200
+    Using threshold at QPQ = 0.9659912130438761
+    Using threshold L0 at QPQ2 = 0.9791661626669959  and threshold L1 at QPQ2 = 0.9791661626669959
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  100
+    Using historyLen at QPQ =  100
+    Using historyLen L0 at QPQ2 = 400  and historyLen L1 at QPQ2 = 400
+    Using threshold at QPQ = 0.95
+    Using threshold L0 at QPQ2 = 0.9692708215318152  and threshold L1 at QPQ2 = 0.9692708215318152
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  200
+    Using historyLen at QPQ =  200
+    Using historyLen L0 at QPQ2 = 800  and historyLen L1 at QPQ2 = 800
+    Using threshold at QPQ = 0.9607783157958886
+    Using threshold L0 at QPQ2 = 0.9759475239000507  and threshold L1 at QPQ2 = 0.9759475239000507
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  300
+    Using historyLen at QPQ =  300
+    Using historyLen L0 at QPQ2 = 1200  and historyLen L1 at QPQ2 = 1200
+    Using threshold at QPQ = 0.9659912130438761
+    Using threshold L0 at QPQ2 = 0.9791661626669959  and threshold L1 at QPQ2 = 0.9791661626669959
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  100
+    Using historyLen at QPQ =  100
+    Using historyLen L0 at QPQ2 = 400  and historyLen L1 at QPQ2 = 400
+    Using threshold at QPQ = 0.95
+    Using threshold L0 at QPQ2 = 0.9692708215318152  and threshold L1 at QPQ2 = 0.9692708215318152
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  200
+    Using historyLen at QPQ =  200
+    Using historyLen L0 at QPQ2 = 800  and historyLen L1 at QPQ2 = 800
+    Using threshold at QPQ = 0.9607783157958886
+    Using threshold L0 at QPQ2 = 0.9759475239000507  and threshold L1 at QPQ2 = 0.9759475239000507
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  300
+    Using historyLen at QPQ =  300
+    Using historyLen L0 at QPQ2 = 1200  and historyLen L1 at QPQ2 = 1200
+    Using threshold at QPQ = 0.9659912130438761
+    Using threshold L0 at QPQ2 = 0.9791661626669959  and threshold L1 at QPQ2 = 0.9791661626669959
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  100
+    Using historyLen at QPQ =  100
+    Using historyLen L0 at QPQ2 = 400  and historyLen L1 at QPQ2 = 400
+    Using threshold at QPQ = 0.95
+    Using threshold L0 at QPQ2 = 0.9692708215318152  and threshold L1 at QPQ2 = 0.9692708215318152
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  200
+    Using historyLen at QPQ =  200
+    Using historyLen L0 at QPQ2 = 800  and historyLen L1 at QPQ2 = 800
+    Using threshold at QPQ = 0.9607783157958886
+    Using threshold L0 at QPQ2 = 0.9759475239000507  and threshold L1 at QPQ2 = 0.9759475239000507
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  300
+    Using historyLen at QPQ =  300
+    Using historyLen L0 at QPQ2 = 1200  and historyLen L1 at QPQ2 = 1200
+    Using threshold at QPQ = 0.9659912130438761
+    Using threshold L0 at QPQ2 = 0.9791661626669959  and threshold L1 at QPQ2 = 0.9791661626669959
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  100
+    Using historyLen at QPQ =  100
+    Using historyLen L0 at QPQ2 = 400  and historyLen L1 at QPQ2 = 400
+    Using threshold at QPQ = 0.95
+    Using threshold L0 at QPQ2 = 0.9692708215318152  and threshold L1 at QPQ2 = 0.9692708215318152
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  200
+    Using historyLen at QPQ =  200
+    Using historyLen L0 at QPQ2 = 800  and historyLen L1 at QPQ2 = 800
+    Using threshold at QPQ = 0.9607783157958886
+    Using threshold L0 at QPQ2 = 0.9759475239000507  and threshold L1 at QPQ2 = 0.9759475239000507
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  300
+    Using historyLen at QPQ =  300
+    Using historyLen L0 at QPQ2 = 1200  and historyLen L1 at QPQ2 = 1200
+    Using threshold at QPQ = 0.9659912130438761
+    Using threshold L0 at QPQ2 = 0.9791661626669959  and threshold L1 at QPQ2 = 0.9791661626669959
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  100
+    Using historyLen at QPQ =  100
+    Using historyLen L0 at QPQ2 = 400  and historyLen L1 at QPQ2 = 400Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  100
+    Using historyLen at QPQ =  100
+    Using historyLen L0 at QPQ2 = 400  and historyLen L1 at QPQ2 = 400
+    Using threshold at QPQ = 0.95
+    Using threshold L0 at QPQ2 = 0.9692708215318152  and threshold L1 at QPQ2 = 0.9692708215318152
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  200
+    Using historyLen at QPQ =  200
+    Using historyLen L0 at QPQ2 = 800  and historyLen L1 at QPQ2 = 800
+    Using threshold at QPQ = 0.9607783157958886
+    Using threshold L0 at QPQ2 = 0.9759475239000507  and threshold L1 at QPQ2 = 0.9759475239000507
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  300
+    Using historyLen at QPQ =  300
+    Using historyLen L0 at QPQ2 = 1200  and historyLen L1 at QPQ2 = 1200
+    Using threshold at QPQ = 0.9659912130438761
+    Using threshold L0 at QPQ2 = 0.9791661626669959  and threshold L1 at QPQ2 = 0.9791661626669959
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  100
+    Using historyLen at QPQ =  100
+    Using historyLen L0 at QPQ2 = 400  and historyLen L1 at QPQ2 = 400
+    Using threshold at QPQ = 0.95
+    Using threshold L0 at QPQ2 = 0.9692708215318152  and threshold L1 at QPQ2 = 0.9692708215318152
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  200
+    Using historyLen at QPQ =  200
+    Using historyLen L0 at QPQ2 = 800  and historyLen L1 at QPQ2 = 800
+    Using threshold at QPQ = 0.9607783157958886
+    Using threshold L0 at QPQ2 = 0.9759475239000507  and threshold L1 at QPQ2 = 0.9759475239000507
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  300
+    Using historyLen at QPQ =  300
+    Using historyLen L0 at QPQ2 = 1200  and historyLen L1 at QPQ2 = 1200
+    Using threshold at QPQ = 0.9659912130438761
+    Using threshold L0 at QPQ2 = 0.9791661626669959  and threshold L1 at QPQ2 = 0.9791661626669959
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  100
+    Using historyLen at QPQ =  100
+    Using historyLen L0 at QPQ2 = 400  and historyLen L1 at QPQ2 = 400
+    Using threshold at QPQ = 0.95
+    Using threshold L0 at QPQ2 = 0.9692708215318152  and threshold L1 at QPQ2 = 0.9692708215318152
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  200
+    Using historyLen at QPQ =  200
+    Using historyLen L0 at QPQ2 = 800  and historyLen L1 at QPQ2 = 800
+    Using threshold at QPQ = 0.9607783157958886
+    Using threshold L0 at QPQ2 = 0.9759475239000507  and threshold L1 at QPQ2 = 0.9759475239000507
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  300
+    Using historyLen at QPQ =  300
+    Using historyLen L0 at QPQ2 = 1200  and historyLen L1 at QPQ2 = 1200
+    Using threshold at QPQ = 0.9659912130438761
+    Using threshold L0 at QPQ2 = 0.9791661626669959  and threshold L1 at QPQ2 = 0.9791661626669959
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  100
+    Using historyLen at QPQ =  100
+    Using historyLen L0 at QPQ2 = 400  and historyLen L1 at QPQ2 = 400
+    Using threshold at QPQ = 0.95
+    Using threshold L0 at QPQ2 = 0.9692708215318152  and threshold L1 at QPQ2 = 0.9692708215318152
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  200
+    Using historyLen at QPQ =  200
+    Using historyLen L0 at QPQ2 = 800  and historyLen L1 at QPQ2 = 800
+    Using threshold at QPQ = 0.9607783157958886
+    Using threshold L0 at QPQ2 = 0.9759475239000507  and threshold L1 at QPQ2 = 0.9759475239000507
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  300
+    Using historyLen at QPQ =  300
+    Using historyLen L0 at QPQ2 = 1200  and historyLen L1 at QPQ2 = 1200
+    Using threshold at QPQ = 0.9659912130438761
+    Using threshold L0 at QPQ2 = 0.9791661626669959  and threshold L1 at QPQ2 = 0.9791661626669959
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  100
+    Using historyLen at QPQ =  100
+    Using historyLen L0 at QPQ2 = 400  and historyLen L1 at QPQ2 = 400
+    Using threshold at QPQ = 0.95
+    Using threshold L0 at QPQ2 = 0.9692708215318152  and threshold L1 at QPQ2 = 0.9692708215318152
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  200
+    Using historyLen at QPQ =  200
+    Using historyLen L0 at QPQ2 = 800  and historyLen L1 at QPQ2 = 800
+    Using threshold at QPQ = 0.9607783157958886
+    Using threshold L0 at QPQ2 = 0.9759475239000507  and threshold L1 at QPQ2 = 0.9759475239000507
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  300
+    Using historyLen at QPQ =  300
+    Using historyLen L0 at QPQ2 = 1200  and historyLen L1 at QPQ2 = 1200
+    Using threshold at QPQ = 0.9659912130438761
+    Using threshold L0 at QPQ2 = 0.9791661626669959  and threshold L1 at QPQ2 = 0.9791661626669959
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  100
+    Using historyLen at QPQ =  100
+    Using historyLen L0 at QPQ2 = 400  and historyLen L1 at QPQ2 = 400
+    Using threshold at QPQ = 0.95
+    Using threshold L0 at QPQ2 = 0.9692708215318152  and threshold L1 at QPQ2 = 0.9692708215318152
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  200
+    Using historyLen at QPQ =  200
+    Using historyLen L0 at QPQ2 = 800  and historyLen L1 at QPQ2 = 800
+    Using threshold at QPQ = 0.9607783157958886
+    Using threshold L0 at QPQ2 = 0.9759475239000507  and threshold L1 at QPQ2 = 0.9759475239000507
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  300
+    Using historyLen at QPQ =  300
+    Using historyLen L0 at QPQ2 = 1200  and historyLen L1 at QPQ2 = 1200
+    Using threshold at QPQ = 0.9659912130438761
+    Using threshold L0 at QPQ2 = 0.9791661626669959  and threshold L1 at QPQ2 = 0.9791661626669959
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  100
+    Using historyLen at QPQ =  100
+    Using historyLen L0 at QPQ2 = 400  and historyLen L1 at QPQ2 = 400
+    Using threshold at QPQ = 0.95
+    Using threshold L0 at QPQ2 = 0.9692708215318152  and threshold L1 at QPQ2 = 0.9692708215318152
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  200
+    Using historyLen at QPQ =  200
+    Using historyLen L0 at QPQ2 = 800  and historyLen L1 at QPQ2 = 800
+    Using threshold at QPQ = 0.9607783157958886
+    Using threshold L0 at QPQ2 = 0.9759475239000507  and threshold L1 at QPQ2 = 0.9759475239000507
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  300
+    Using historyLen at QPQ =  300
+    Using historyLen L0 at QPQ2 = 1200  and historyLen L1 at QPQ2 = 1200
+    Using threshold at QPQ = 0.9659912130438761
+    Using threshold L0 at QPQ2 = 0.9791661626669959  and threshold L1 at QPQ2 = 0.9791661626669959
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  100
+    Using historyLen at QPQ =  100
     Using historyLen L0 at QPQ2 = 400  and historyLen L1 at QPQ2 = 400
