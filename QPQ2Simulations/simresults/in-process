@@ -1,0 +1,19 @@
+UID         PID   PPID  C STIME TTY          TIME CMD
+afanta    72761  72760  0 11:14 pts/0    00:00:00 -bash
+afanta    73129  72761 99 12:39 pts/0    00:24:23 python3 sim-clusters-256players-v2/SoloSimulacion-3.py
+afanta    73138  72761 99 12:40 pts/0    00:23:50 python3 sim-dishonest-random-v2/SoloSimulacion-3.py
+afanta    73145  72761 99 12:40 pts/0    00:23:09 python3 sim-history/SoloSimulacion-2.py
+afanta    73151  72761 99 12:41 pts/0    00:22:43 python3 sim-history-beta1.1-v2/SoloSimulacion-3.py
+afanta    73182  72761 99 12:59 pts/0    00:04:51 python3 sim-history-beta1.2-v2/SoloSimulacion-3.py
+afanta    73189  72761 99 13:00 pts/0    00:03:50 python3 sim-history-beta1.05-th0.90/SoloSimulacion-4.py
+afanta    73195  72761 99 13:00 pts/0    00:03:28 python3 sim-history-beta1.05-th0.95/SoloSimulacion-4.py
+afanta    73202  72761 99 13:00 pts/0    00:03:04 python3 sim-history-beta1.05-v2/SoloSimulacion-3.py
+afanta    73210  72761 99 13:02 pts/0    00:01:56 python3 sim-history-beta1.05-v2/SoloSimulacion-3.py
+afanta    73213  72761 99 13:02 pts/0    00:01:46 python3 sim-history-beta1.05-th0.95/SoloSimulacion-4.py
+afanta    73216  72761 99 13:02 pts/0    00:01:40 python3 sim-history-beta1.05-th0.90/SoloSimulacion-4.py
+afanta    73219  72761 99 13:02 pts/0    00:01:34 python3 sim-history-beta1.2-v2/SoloSimulacion-3.py
+afanta    73222  72761 99 13:02 pts/0    00:01:28 python3 sim-history-beta1.1-v2/SoloSimulacion-3.py
+afanta    73225  72761 99 13:02 pts/0    00:01:19 python3 sim-history/SoloSimulacion-2.py
+afanta    73230  72761 99 13:03 pts/0    00:00:44 python3 sim-dishonest-random-v2/SoloSimulacion-3.py
+afanta    73235  72761 99 13:03 pts/0    00:00:29 python3 sim-clusters-256players-v2/SoloSimulacion-3.py
+afanta    73240  72761  0 13:04 pts/0    00:00:00 ps -f
