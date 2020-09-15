@@ -234,15 +234,15 @@ dir = './results'
 numberSimulations = 50
 
 # History length
-historyLenArray = [100, 200, 300] 
+historyLenArray = [100] 
 alpha = 1 
 
 
 # Number of players
-numplayersArray = [64]
+numplayersArray = [16, 32, 64, 128, 256]
 
 # betafactor (dishonest beta factor) Array
-betafactorArray = [1.05]
+betafactorArray = [1.2]
 
 # Number of Liars
 numLiarsArray = [1]
