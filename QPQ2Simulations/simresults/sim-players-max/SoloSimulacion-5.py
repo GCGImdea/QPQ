@@ -268,7 +268,7 @@ for count in range(100): # in total  100*50 = 5.000 simulations for each scenari
                         rounds = historyLen*10
 
                         a = numplayers * numclusters / ( numclusters ^ 2 + numplayers )
-                        tfnew = lambda hl: thresholdLevel(hl, a, 0.985, 100)
+                        tfnew = lambda hl: thresholdLevel(hl, a, 0.97, 100)
 
                         simRst = doSimulation(numplayers, numLiars, numclusters, betaFactor, tfnew, historyLen)
                         frames.append(simRst)
