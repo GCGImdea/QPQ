@@ -232,6 +232,8 @@ def doSimulation(numplayers, numLiars, numclusters, betaf, thresholdFunct, thres
     return pd.DataFrame(data=simresults)
 
 
+#=============================================================================
+
 debug = True
 dir = './results'
 
@@ -259,6 +261,8 @@ numclustersArray = [8]
 
 th0=0.97
 x0=100
+
+#--------------------------------------------------------------------
 
 def thresholdLevel(x, a, th0=0.97, x0=100):
     #print("thresholdLevel a = ", a)
