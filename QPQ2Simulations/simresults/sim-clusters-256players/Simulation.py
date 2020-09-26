@@ -3,7 +3,7 @@
 
 # In[ ]:
 
-# VERSION 2020/02/19 11:45
+# VERSION 2020/09/24 13:45
 
 import math
 import time
@@ -23,20 +23,20 @@ def QPQ(declaredVals, trueVals, histlen, maxpval, KSTest=True, debug=True):
     R = dims[1] # number of rounds
     decisions = np.full(R, np.nan)
     historic = np.full((N, histlen), np.nan) # Empty history matrix (N x histlen) or (number of playes x History Len)
-    
+
     utilities = np.zeros((N, R)) # Empty utility matrix (N x R)
     falsenegatives = np.zeros((N, R)) # Empty utility matrix (N x R)
     for i in range(R):
         # Roll historic to the left
         if (i > histlen):
             historic = np.roll(historic, -1, axis=1)
-            
+
         theta = np.zeros(N)
         # copy declared values at the end of the historic
         historic[:, min(i, histlen - 1)] = declaredVals[: , i]
-        
+
         for j in range(N):
-            if debug: 
+            if debug:
                 print ("player ", j, " has values ", historic[j])
             if KSTest and stats.kstest(historic[j, 0:min(i+1, histlen)], 'uniform').pvalue < (1 - maxpval):
                 if debug: print("False negative")
@@ -44,20 +44,18 @@ def QPQ(declaredVals, trueVals, histlen, maxpval, KSTest=True, debug=True):
                 falsenegatives[j, i] = 1
             else:
                 theta[j] = declaredVals[j, i]
-                
+
         # copy declared values at the end of the historic
-        historic[:, min(i, histlen - 1)] = theta
-        
-        d = int(np.argmin(theta))
+        # historic[:, min(i, histlen - 1)] = theta
+
+        d = int(np.argmax(theta))
         if debug: print("Win player ", d)
         decisions[i] = d
         utilities[d, i] = trueVals[d, i]
     return decisions, utilities, falsenegatives
 
-
-
 # Values is a matrix (N x r) or (number of playes x number of rounds)
-# Level 0 is base level 
+# Level 0 is base level
 # Level 1 is cluster level
 def QPQ2Level(declaredVals, trueVals, K, histlenL0, maxpvalL0, histlenL1, maxpvalL1, KSTest=True, debug=True):
     dims = declaredVals.shape
@@ -79,65 +77,61 @@ def QPQ2Level(declaredVals, trueVals, K, histlenL0, maxpvalL0, histlenL1, maxpva
         # Roll historic to the left
         if (i > histlenL0):
             historicL0 = np.roll(historicL0, -1, axis=1)
-            
+
         theta = np.zeros(N)
         # copy declared values at the end of the historic
         historicL0[:, min(i, histlenL0 - 1)] = declaredVals[: , i]
 
         for j in range(N):
-            if debug: 
+            if debug:
                 print ("player ", j, " has values ", historicL0[j])
             if KSTest and stats.kstest(historicL0[j, 0:min(i+1, histlenL0)], 'uniform').pvalue < (1 - maxpvalL0):
                 if debug: print("False negative")
                 theta[j] = np.random.uniform(0, 1, 1)
                 falsenegativesL0[j, i] = 1
+                falsenegativesBoth[j, i] = 1
             else:
                 theta[j] = declaredVals[j, i]
-                
+
         # copy declared values at the end of the historic
-        historicL0[:, min(i, histlenL0 - 1)] = theta
-        
+        # historicL0[:, min(i, histlenL0 - 1)] = theta
+
         thetaUp = np.zeros(K)
         decisionsL1 = np.full(K, np.nan)
-        for k in range(K):     
+        for k in range(K):
             valsCluster = theta[(k)*playersPerCluster:(k+1)*playersPerCluster]
-            decisionsL1[k] = int(np.argmin(valsCluster))
+            decisionsL1[k] = int(np.argmax(valsCluster))
             player = int((k)*playersPerCluster + decisionsL1[k])
-            if debug: 
+            if debug:
                 print ("cluster ", k, " has values ", valsCluster)
                 print ("cluster ", k, " has player ", player)
                 print ("cluster ", k, " has value ", valsCluster[int(decisionsL1[k])])
                 print ("cluster ", k, " has range ", (k, min(i, histlenL1 - 1)))
             historicL1[k, min(i, histlenL1 - 1)] = valsCluster[int(decisionsL1[k])]
-            if KSTest and stats.kstest(historicL1[k, 0:min(i+1, histlenL1)], stats.beta(a=1., b=playersPerCluster).cdf).pvalue < (1 - maxpvalL1):
+            if KSTest and stats.kstest(historicL1[k, 0:min(i+1, histlenL1)], stats.beta(a=playersPerCluster, b=1.).cdf).pvalue < (1 - maxpvalL1):
                 if debug: print("False negative")
                 thetaUp[k] = np.random.uniform(0, 1, 1)
                 falsenegativesL1[k, i] = 1
                 falsenegativesBoth[player, i] = 1
             else:
                 thetaUp[k] = valsCluster[int(decisionsL1[k])]
-                
-        #print(thetaUp)        
-        dCluster = np.argmin(thetaUp)
+
+        #print(thetaUp)
+        dCluster = np.argmax(thetaUp)
         d = int(dCluster*playersPerCluster + decisionsL1[dCluster])
         if debug: print("Win cluster ", dCluster, " and player ", d)
         decisions[i] = d
         utilities[d, i] = trueVals[d, i]
     return decisions, utilities, falsenegativesL0, falsenegativesL1, falsenegativesBoth
 
-
-
-def thresholdLevel(x, a, th0=0.97, x0=100): 
-    #print("thresholdLevel a = ", a)
-    return (th0)**((x0/x)**(1/math.log2(a)))
-
-def doSimulation(numplayers, numLiars, numclusters, betaf, thresholdFunct, historyLen):
+def doSimulation(numplayers, numLiars, numclusters, betaf, thresholdFunct, thresholdFunct2, historyLen):
     # One entry for each simulation
     simresults = {'players': [], 'clusters': [], 'playerperclusters': [], 'numliars': [],
                   'QPQversion': [], 'alpha': [], 'rounds': [], 'betafactor': [],
                   'QPQHL': [], 'QPQTH': [], 'QPQ2HL0': [], 'QPQ2TH0': [], 'QPQ2HL1': [], 'QPQ2TH1': [],
                   'UtilityHonest': [], 'UtilityDishonest': [], 'FNTotalHonest': [], 'FNTotalDishonest': [],
-                  'UtilityHonest_HL': [], 'UtilityDishonest_HL': [], 'FNTotalHonest_HL': [], 'FNTotalDishonest_HL': [] 
+                  'FNTotalHonest_LL': [], 'FNTotalDishonest_LL': [],
+                  'UtilityHonest_HL': [], 'UtilityDishonest_HL': [], 'FNTotalHonest_HL': [], 'FNTotalDishonest_HL': []
                 }
 
     # historyLen = historyLenArray[0]
@@ -150,13 +144,13 @@ def doSimulation(numplayers, numLiars, numclusters, betaf, thresholdFunct, histo
     hlL0 = int((historyLen * numplayers) / (numclusters + alpha * numplayers / numclusters))
     hlL1 = int(alpha * hlL0)
 
-    thresholdL0 = thresholdFunct(hlL0)
-    thresholdL1 = thresholdFunct(hlL1)
+    thresholdL0 = thresholdFunct2(threshold)
+    thresholdL1 = thresholdL0
     if (debug):
         print("    Using historyLen at QPQ = ", historyLen)
         print("    Using historyLen L0 at QPQ2 =", hlL0, " and historyLen L1 at QPQ2 =", hlL1)
-        print("    Using threshold at QPQ =", threshold)
-        print("    Using threshold L0 at QPQ2 =", thresholdL0, " and threshold L1 at QPQ2 =", thresholdL1)
+        print("    Using threshold at QPQ =", threshold, ", expected FN probability \x1b[31m", 1 - threshold, "\x1b[0m")
+        print("    Using threshold L0 at QPQ2 =", thresholdL0, " and threshold L1 at QPQ2 =", thresholdL1, ", expected FN probability \x1b[31m", (1 - thresholdL0*thresholdL1), "\x1b[0m")
     for k in range(numberSimulations):
         if (debug and (k % 100 == 0)):
             print("Simulation number =", k)
@@ -169,7 +163,7 @@ def doSimulation(numplayers, numLiars, numclusters, betaf, thresholdFunct, histo
             np.random.shuffle(liarsPos)
             norm = stats.distributions.beta(betaf, 1)
             declaredVals[liarsPos, :] = norm.ppf(trueVals[liarsPos, :])
-         
+
         for version in [1,2]:
             # Scenario parameters
             simresults['players'].append(numplayers)
@@ -183,7 +177,7 @@ def doSimulation(numplayers, numLiars, numclusters, betaf, thresholdFunct, histo
             simresults['rounds'].append(rounds)
             simresults['betafactor'].append(betaf)
             simresults['QPQHL'].append(historyLen)
-            
+
             # Scenario variables (computed)
             simresults['QPQTH'].append(threshold)
             if (version == 1):
@@ -198,32 +192,43 @@ def doSimulation(numplayers, numLiars, numclusters, betaf, thresholdFunct, histo
                 simresults['QPQ2HL1'].append(hlL1)
                 simresults['QPQ2TH0'].append(thresholdL0)
                 simresults['QPQ2TH1'].append(thresholdL1)
-            
-            if (version == 1):    
+
+            if (version == 1):
                 rstT, utT, fnT = QPQ(declaredVals, trueVals, historyLen, threshold, KSTest=True, debug=False)
             else:
                 rstT, utT, fnpL0T, fnL1T, fnT  = QPQ2Level(declaredVals, trueVals, numclusters, hlL0, thresholdL0, hlL1, thresholdL1, KSTest=True, debug=False)
-                
+
             # Scenario results (simulation results) Note that we store the mean of players utility or FN rate
-            simresults['UtilityHonest'].append(utT[~liarsPos].mean())
-            simresults['FNTotalHonest'].append(fnT[~liarsPos].mean())
+            # In order to skip initial data we use historyLen:
+            simresults['UtilityHonest'].append(utT[~liarsPos, historyLen:].mean())
+            simresults['FNTotalHonest'].append(fnT[~liarsPos, historyLen:].mean())
             if (numLiars > 0):
-                simresults['UtilityDishonest'].append(utT[liarsPos].mean())
-                simresults['FNTotalDishonest'].append(fnT[liarsPos].mean())
+                simresults['UtilityDishonest'].append(utT[liarsPos, historyLen:].mean())
+                simresults['FNTotalDishonest'].append(fnT[liarsPos, historyLen:].mean())
             else:
                 simresults['UtilityDishonest'].append(float('NaN'))
                 simresults['FNTotalDishonest'].append(float('NaN'))
-                
-            simresults['UtilityHonest_HL'].append(utT[numLiars:, historyLen:].mean())
-            simresults['FNTotalHonest_HL'].append(fnT[numLiars:, historyLen:].mean())
+
+            simresults['UtilityHonest_HL'].append(utT[~liarsPos, historyLen:].mean())
+            simresults['FNTotalHonest_HL'].append(fnT[~liarsPos, historyLen:].mean())
             if (numLiars > 0):
-                simresults['UtilityDishonest_HL'].append(utT[0:numLiars, historyLen:].mean())
-                simresults['FNTotalDishonest_HL'].append(fnT[0:numLiars, historyLen:].mean())
+                simresults['UtilityDishonest_HL'].append(utT[liarsPos, historyLen:].mean())
+                simresults['FNTotalDishonest_HL'].append(fnT[liarsPos, historyLen:].mean())
             else:
                 simresults['UtilityDishonest_HL'].append(float('NaN'))
                 simresults['FNTotalDishonest_HL'].append(float('NaN'))
-     
-    #print(simresults)   
+
+            if (version == 2):
+                simresults['FNTotalHonest_LL'].append(fnpL0T[~liarsPos, historyLen:].mean())
+                if (numLiars > 0):
+                    simresults['FNTotalDishonest_LL'].append(fnpL0T[liarsPos, historyLen:].mean())
+                else:
+                    simresults['FNTotalDishonest_LL'].append(float('NaN'))
+            else:
+                simresults['FNTotalHonest_LL'].append(float('NaN'))
+                simresults['FNTotalDishonest_LL'].append(float('NaN'))
+
+    #print(simresults)
     return pd.DataFrame(data=simresults)
 
 
@@ -232,30 +237,46 @@ dir = './results'
 
 # Number of simulations
 numberSimulations = 50
+numberCounts = 100
 
 # History length
-historyLenArray = [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000] 
-alpha = 1 
+historyLenArray = [100]
+roundsFactor=20
+alpha = 1
 
 
 # Number of players
-numplayersArray = [64]
+numplayersArray = [256]
 
 # betafactor (dishonest beta factor) Array
-betafactorArray = [1.05]
+betafactorArray = [1.2]
 
 # Number of Liars
 numLiarsArray = [1]
 
 # Number of clusters
-numclustersArray = [8]
+numclustersArray = [2, 4, 8, 16, 32, 64, 128]
 
+th0=0.97
+x0=100
+
+def thresholdLevel(x, a, th0=0.97, x0=100):
+    #print("thresholdLevel a = ", a)
+    return (th0)**((x0/x)**(1/math.log2(a)))
+
+def thresholdLevel2(th=0.97):
+    # QPQ True Positive probability = th
+    # QPQ False Negative probability = 1 - th
+    # ML-QPQ True Positive probability = th2^2
+    # ML-QPQ False Negative probability = 1 - TP = 1 - th2^2
+    # 1-th=1-th2^2 => th2=sqrt(th)
+    return math.sqrt(th)
 
 if not os.path.exists(dir):
     os.mkdir(dir)
-frames=[]    
+frames=[]
 
-for count in range(100): # in total  100*50 = 5.000 simulations for each scenario
+for count in range(numberCounts): # in total  100*50 = 5.000 simulations for each scenario
     for idx0, historyLen in enumerate(historyLenArray):
         for idx1, numclusters in enumerate(numclustersArray):
             for idx2, numplayers in enumerate(numplayersArray):
@@ -265,12 +286,13 @@ for count in range(100): # in total  100*50 = 5.000 simulations for each scenari
                             continue
 
                         # Number of rounds
-                        rounds = historyLen*10
+                        rounds = historyLen*roundsFactor
 
                         a = numplayers * numclusters / ( numclusters ^ 2 + numplayers )
-                        tfnew = lambda hl: thresholdLevel(hl, a)
+                        tfqpq = lambda hl: thresholdLevel(hl, a, th0, x0)
+                        tfmlqpq = lambda th: thresholdLevel2(th)
 
-                        simRst = doSimulation(numplayers, numLiars, numclusters, betaFactor, tfnew, historyLen)
+                        simRst = doSimulation(numplayers, numLiars, numclusters, betaFactor, tfqpq, tfmlqpq, historyLen)
                         frames.append(simRst)
 
                         timestr = time.strftime("%Y%m%d-%H%M%S")
@@ -281,3 +303,4 @@ for count in range(100): # in total  100*50 = 5.000 simulations for each scenari
 df = pd.concat(frames, ignore_index=True)
 full_path = os.path.join(dir, 'QPQRst-all-{0}.csv'.format(timestr))
 df.to_csv(full_path, index=False)
+
