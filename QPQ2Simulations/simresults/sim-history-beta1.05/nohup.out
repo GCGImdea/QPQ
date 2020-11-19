@@ -1,0 +1,720 @@
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  1000
+    Using historyLen at QPQ =  1000
+    Using historyLen L0 at QPQ2 = 4000  and historyLen L1 at QPQ2 = 4000
+    Using threshold at QPQ = 0.9867422157046601 , expected FN probability [31m 0.013257784295339858 [0m
+    Using threshold L0 at QPQ2 = 0.9933489898845522  and threshold L1 at QPQ2 = 0.9933489898845522 , expected FN probability [31m 0.013257784295339747 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  900
+    Using historyLen at QPQ =  900
+    Using historyLen L0 at QPQ2 = 3600  and historyLen L1 at QPQ2 = 3600
+    Using threshold at QPQ = 0.9862356087716391 , expected FN probability [31m 0.013764391228360928 [0m
+    Using threshold L0 at QPQ2 = 0.9930939576755258  and threshold L1 at QPQ2 = 0.9930939576755258 , expected FN probability [31m 0.01376439122836104 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  800
+    Using historyLen at QPQ =  800
+    Using historyLen L0 at QPQ2 = 3200  and historyLen L1 at QPQ2 = 3200
+    Using threshold at QPQ = 0.9856464869004811 , expected FN probability [31m 0.014353513099518933 [0m
+    Using threshold L0 at QPQ2 = 0.9927973040356632  and threshold L1 at QPQ2 = 0.9927973040356632 , expected FN probability [31m 0.014353513099518822 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  700
+    Using historyLen at QPQ =  700
+    Using historyLen L0 at QPQ2 = 2800  and historyLen L1 at QPQ2 = 2800
+    Using threshold at QPQ = 0.9849482746536519 , expected FN probability [31m 0.015051725346348133 [0m
+    Using threshold L0 at QPQ2 = 0.9924456028688181  and threshold L1 at QPQ2 = 0.9924456028688181 , expected FN probability [31m 0.015051725346348133 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  600
+    Using historyLen at QPQ =  600
+    Using historyLen L0 at QPQ2 = 2400  and historyLen L1 at QPQ2 = 2400
+    Using threshold at QPQ = 0.984100250022662 , expected FN probability [31m 0.015899749977338007 [0m
+    Using threshold L0 at QPQ2 = 0.9920182710125162  and threshold L1 at QPQ2 = 0.9920182710125162 , expected FN probability [31m 0.015899749977338007 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  500
+    Using historyLen at QPQ =  500
+    Using historyLen L0 at QPQ2 = 2000  and historyLen L1 at QPQ2 = 2000
+    Using threshold at QPQ = 0.9830359017899089 , expected FN probability [31m 0.01696409821009115 [0m
+    Using threshold L0 at QPQ2 = 0.9914816699212895  and threshold L1 at QPQ2 = 0.9914816699212895 , expected FN probability [31m 0.01696409821009115 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  1000
+    Using historyLen at QPQ =  1000
+    Using historyLen L0 at QPQ2 = 4000  and historyLen L1 at QPQ2 = 4000
+    Using threshold at QPQ = 0.9867422157046601 , expected FN probability [31m 0.013257784295339858 [0m
+    Using threshold L0 at QPQ2 = 0.9933489898845522  and threshold L1 at QPQ2 = 0.9933489898845522 , expected FN probability [31m 0.013257784295339747 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  900
+    Using historyLen at QPQ =  900
+    Using historyLen L0 at QPQ2 = 3600  and historyLen L1 at QPQ2 = 3600
+    Using threshold at QPQ = 0.9862356087716391 , expected FN probability [31m 0.013764391228360928 [0m
+    Using threshold L0 at QPQ2 = 0.9930939576755258  and threshold L1 at QPQ2 = 0.9930939576755258 , expected FN probability [31m 0.01376439122836104 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  800
+    Using historyLen at QPQ =  800
+    Using historyLen L0 at QPQ2 = 3200  and historyLen L1 at QPQ2 = 3200
+    Using threshold at QPQ = 0.9856464869004811 , expected FN probability [31m 0.014353513099518933 [0m
+    Using threshold L0 at QPQ2 = 0.9927973040356632  and threshold L1 at QPQ2 = 0.9927973040356632 , expected FN probability [31m 0.014353513099518822 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  700
+    Using historyLen at QPQ =  700
+    Using historyLen L0 at QPQ2 = 2800  and historyLen L1 at QPQ2 = 2800
+    Using threshold at QPQ = 0.9849482746536519 , expected FN probability [31m 0.015051725346348133 [0m
+    Using threshold L0 at QPQ2 = 0.9924456028688181  and threshold L1 at QPQ2 = 0.9924456028688181 , expected FN probability [31m 0.015051725346348133 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  600
+    Using historyLen at QPQ =  600
+    Using historyLen L0 at QPQ2 = 2400  and historyLen L1 at QPQ2 = 2400
+    Using threshold at QPQ = 0.984100250022662 , expected FN probability [31m 0.015899749977338007 [0m
+    Using threshold L0 at QPQ2 = 0.9920182710125162  and threshold L1 at QPQ2 = 0.9920182710125162 , expected FN probability [31m 0.015899749977338007 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  500
+    Using historyLen at QPQ =  500
+    Using historyLen L0 at QPQ2 = 2000  and historyLen L1 at QPQ2 = 2000
+    Using threshold at QPQ = 0.9830359017899089 , expected FN probability [31m 0.01696409821009115 [0m
+    Using threshold L0 at QPQ2 = 0.9914816699212895  and threshold L1 at QPQ2 = 0.9914816699212895 , expected FN probability [31m 0.01696409821009115 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  1000
+    Using historyLen at QPQ =  1000
+    Using historyLen L0 at QPQ2 = 4000  and historyLen L1 at QPQ2 = 4000
+    Using threshold at QPQ = 0.9867422157046601 , expected FN probability [31m 0.013257784295339858 [0m
+    Using threshold L0 at QPQ2 = 0.9933489898845522  and threshold L1 at QPQ2 = 0.9933489898845522 , expected FN probability [31m 0.013257784295339747 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  900
+    Using historyLen at QPQ =  900
+    Using historyLen L0 at QPQ2 = 3600  and historyLen L1 at QPQ2 = 3600
+    Using threshold at QPQ = 0.9862356087716391 , expected FN probability [31m 0.013764391228360928 [0m
+    Using threshold L0 at QPQ2 = 0.9930939576755258  and threshold L1 at QPQ2 = 0.9930939576755258 , expected FN probability [31m 0.01376439122836104 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  800
+    Using historyLen at QPQ =  800
+    Using historyLen L0 at QPQ2 = 3200  and historyLen L1 at QPQ2 = 3200
+    Using threshold at QPQ = 0.9856464869004811 , expected FN probability [31m 0.014353513099518933 [0m
+    Using threshold L0 at QPQ2 = 0.9927973040356632  and threshold L1 at QPQ2 = 0.9927973040356632 , expected FN probability [31m 0.014353513099518822 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  700
+    Using historyLen at QPQ =  700
+    Using historyLen L0 at QPQ2 = 2800  and historyLen L1 at QPQ2 = 2800
+    Using threshold at QPQ = 0.9849482746536519 , expected FN probability [31m 0.015051725346348133 [0m
+    Using threshold L0 at QPQ2 = 0.9924456028688181  and threshold L1 at QPQ2 = 0.9924456028688181 , expected FN probability [31m 0.015051725346348133 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  600
+    Using historyLen at QPQ =  600
+    Using historyLen L0 at QPQ2 = 2400  and historyLen L1 at QPQ2 = 2400
+    Using threshold at QPQ = 0.984100250022662 , expected FN probability [31m 0.015899749977338007 [0m
+    Using threshold L0 at QPQ2 = 0.9920182710125162  and threshold L1 at QPQ2 = 0.9920182710125162 , expected FN probability [31m 0.015899749977338007 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  500
+    Using historyLen at QPQ =  500
+    Using historyLen L0 at QPQ2 = 2000  and historyLen L1 at QPQ2 = 2000
+    Using threshold at QPQ = 0.9830359017899089 , expected FN probability [31m 0.01696409821009115 [0m
+    Using threshold L0 at QPQ2 = 0.9914816699212895  and threshold L1 at QPQ2 = 0.9914816699212895 , expected FN probability [31m 0.01696409821009115 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  1000
+    Using historyLen at QPQ =  1000
+    Using historyLen L0 at QPQ2 = 4000  and historyLen L1 at QPQ2 = 4000
+    Using threshold at QPQ = 0.9867422157046601 , expected FN probability [31m 0.013257784295339858 [0m
+    Using threshold L0 at QPQ2 = 0.9933489898845522  and threshold L1 at QPQ2 = 0.9933489898845522 , expected FN probability [31m 0.013257784295339747 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  900
+    Using historyLen at QPQ =  900
+    Using historyLen L0 at QPQ2 = 3600  and historyLen L1 at QPQ2 = 3600
+    Using threshold at QPQ = 0.9862356087716391 , expected FN probability [31m 0.013764391228360928 [0m
+    Using threshold L0 at QPQ2 = 0.9930939576755258  and threshold L1 at QPQ2 = 0.9930939576755258 , expected FN probability [31m 0.01376439122836104 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  800
+    Using historyLen at QPQ =  800
+    Using historyLen L0 at QPQ2 = 3200  and historyLen L1 at QPQ2 = 3200
+    Using threshold at QPQ = 0.9856464869004811 , expected FN probability [31m 0.014353513099518933 [0m
+    Using threshold L0 at QPQ2 = 0.9927973040356632  and threshold L1 at QPQ2 = 0.9927973040356632 , expected FN probability [31m 0.014353513099518822 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  700
+    Using historyLen at QPQ =  700
+    Using historyLen L0 at QPQ2 = 2800  and historyLen L1 at QPQ2 = 2800
+    Using threshold at QPQ = 0.9849482746536519 , expected FN probability [31m 0.015051725346348133 [0m
+    Using threshold L0 at QPQ2 = 0.9924456028688181  and threshold L1 at QPQ2 = 0.9924456028688181 , expected FN probability [31m 0.015051725346348133 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  600
+    Using historyLen at QPQ =  600
+    Using historyLen L0 at QPQ2 = 2400  and historyLen L1 at QPQ2 = 2400
+    Using threshold at QPQ = 0.984100250022662 , expected FN probability [31m 0.015899749977338007 [0m
+    Using threshold L0 at QPQ2 = 0.9920182710125162  and threshold L1 at QPQ2 = 0.9920182710125162 , expected FN probability [31m 0.015899749977338007 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  500
+    Using historyLen at QPQ =  500
+    Using historyLen L0 at QPQ2 = 2000  and historyLen L1 at QPQ2 = 2000
+    Using threshold at QPQ = 0.9830359017899089 , expected FN probability [31m 0.01696409821009115 [0m
+    Using threshold L0 at QPQ2 = 0.9914816699212895  and threshold L1 at QPQ2 = 0.9914816699212895 , expected FN probability [31m 0.01696409821009115 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  1000
+    Using historyLen at QPQ =  1000
+    Using historyLen L0 at QPQ2 = 4000  and historyLen L1 at QPQ2 = 4000
+    Using threshold at QPQ = 0.9867422157046601 , expected FN probability [31m 0.013257784295339858 [0m
+    Using threshold L0 at QPQ2 = 0.9933489898845522  and threshold L1 at QPQ2 = 0.9933489898845522 , expected FN probability [31m 0.013257784295339747 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  900
+    Using historyLen at QPQ =  900
+    Using historyLen L0 at QPQ2 = 3600  and historyLen L1 at QPQ2 = 3600
+    Using threshold at QPQ = 0.9862356087716391 , expected FN probability [31m 0.013764391228360928 [0m
+    Using threshold L0 at QPQ2 = 0.9930939576755258  and threshold L1 at QPQ2 = 0.9930939576755258 , expected FN probability [31m 0.01376439122836104 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  800
+    Using historyLen at QPQ =  800
+    Using historyLen L0 at QPQ2 = 3200  and historyLen L1 at QPQ2 = 3200
+    Using threshold at QPQ = 0.9856464869004811 , expected FN probability [31m 0.014353513099518933 [0m
+    Using threshold L0 at QPQ2 = 0.9927973040356632  and threshold L1 at QPQ2 = 0.9927973040356632 , expected FN probability [31m 0.014353513099518822 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  700
+    Using historyLen at QPQ =  700
+    Using historyLen L0 at QPQ2 = 2800  and historyLen L1 at QPQ2 = 2800
+    Using threshold at QPQ = 0.9849482746536519 , expected FN probability [31m 0.015051725346348133 [0m
+    Using threshold L0 at QPQ2 = 0.9924456028688181  and threshold L1 at QPQ2 = 0.9924456028688181 , expected FN probability [31m 0.015051725346348133 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  600
+    Using historyLen at QPQ =  600
+    Using historyLen L0 at QPQ2 = 2400  and historyLen L1 at QPQ2 = 2400
+    Using threshold at QPQ = 0.984100250022662 , expected FN probability [31m 0.015899749977338007 [0m
+    Using threshold L0 at QPQ2 = 0.9920182710125162  and threshold L1 at QPQ2 = 0.9920182710125162 , expected FN probability [31m 0.015899749977338007 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  500
+    Using historyLen at QPQ =  500
+    Using historyLen L0 at QPQ2 = 2000  and historyLen L1 at QPQ2 = 2000
+    Using threshold at QPQ = 0.9830359017899089 , expected FN probability [31m 0.01696409821009115 [0m
+    Using threshold L0 at QPQ2 = 0.9914816699212895  and threshold L1 at QPQ2 = 0.9914816699212895 , expected FN probability [31m 0.01696409821009115 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  1000
+    Using historyLen at QPQ =  1000
+    Using historyLen L0 at QPQ2 = 4000  and historyLen L1 at QPQ2 = 4000
+    Using threshold at QPQ = 0.9867422157046601 , expected FN probability [31m 0.013257784295339858 [0m
+    Using threshold L0 at QPQ2 = 0.9933489898845522  and threshold L1 at QPQ2 = 0.9933489898845522 , expected FN probability [31m 0.013257784295339747 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  900
+    Using historyLen at QPQ =  900
+    Using historyLen L0 at QPQ2 = 3600  and historyLen L1 at QPQ2 = 3600
+    Using threshold at QPQ = 0.9862356087716391 , expected FN probability [31m 0.013764391228360928 [0m
+    Using threshold L0 at QPQ2 = 0.9930939576755258  and threshold L1 at QPQ2 = 0.9930939576755258 , expected FN probability [31m 0.01376439122836104 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  800
+    Using historyLen at QPQ =  800
+    Using historyLen L0 at QPQ2 = 3200  and historyLen L1 at QPQ2 = 3200
+    Using threshold at QPQ = 0.9856464869004811 , expected FN probability [31m 0.014353513099518933 [0m
+    Using threshold L0 at QPQ2 = 0.9927973040356632  and threshold L1 at QPQ2 = 0.9927973040356632 , expected FN probability [31m 0.014353513099518822 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  700
+    Using historyLen at QPQ =  700
+    Using historyLen L0 at QPQ2 = 2800  and historyLen L1 at QPQ2 = 2800
+    Using threshold at QPQ = 0.9849482746536519 , expected FN probability [31m 0.015051725346348133 [0m
+    Using threshold L0 at QPQ2 = 0.9924456028688181  and threshold L1 at QPQ2 = 0.9924456028688181 , expected FN probability [31m 0.015051725346348133 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  600
+    Using historyLen at QPQ =  600
+    Using historyLen L0 at QPQ2 = 2400  and historyLen L1 at QPQ2 = 2400
+    Using threshold at QPQ = 0.984100250022662 , expected FN probability [31m 0.015899749977338007 [0m
+    Using threshold L0 at QPQ2 = 0.9920182710125162  and threshold L1 at QPQ2 = 0.9920182710125162 , expected FN probability [31m 0.015899749977338007 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  500
+    Using historyLen at QPQ =  500
+    Using historyLen L0 at QPQ2 = 2000  and historyLen L1 at QPQ2 = 2000
+    Using threshold at QPQ = 0.9830359017899089 , expected FN probability [31m 0.01696409821009115 [0m
+    Using threshold L0 at QPQ2 = 0.9914816699212895  and threshold L1 at QPQ2 = 0.9914816699212895 , expected FN probability [31m 0.01696409821009115 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  1000
+    Using historyLen at QPQ =  1000
+    Using historyLen L0 at QPQ2 = 4000  and historyLen L1 at QPQ2 = 4000
+    Using threshold at QPQ = 0.9867422157046601 , expected FN probability [31m 0.013257784295339858 [0m
+    Using threshold L0 at QPQ2 = 0.9933489898845522  and threshold L1 at QPQ2 = 0.9933489898845522 , expected FN probability [31m 0.013257784295339747 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  900
+    Using historyLen at QPQ =  900
+    Using historyLen L0 at QPQ2 = 3600  and historyLen L1 at QPQ2 = 3600
+    Using threshold at QPQ = 0.9862356087716391 , expected FN probability [31m 0.013764391228360928 [0m
+    Using threshold L0 at QPQ2 = 0.9930939576755258  and threshold L1 at QPQ2 = 0.9930939576755258 , expected FN probability [31m 0.01376439122836104 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  800
+    Using historyLen at QPQ =  800
+    Using historyLen L0 at QPQ2 = 3200  and historyLen L1 at QPQ2 = 3200
+    Using threshold at QPQ = 0.9856464869004811 , expected FN probability [31m 0.014353513099518933 [0m
+    Using threshold L0 at QPQ2 = 0.9927973040356632  and threshold L1 at QPQ2 = 0.9927973040356632 , expected FN probability [31m 0.014353513099518822 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  700
+    Using historyLen at QPQ =  700
+    Using historyLen L0 at QPQ2 = 2800  and historyLen L1 at QPQ2 = 2800
+    Using threshold at QPQ = 0.9849482746536519 , expected FN probability [31m 0.015051725346348133 [0m
+    Using threshold L0 at QPQ2 = 0.9924456028688181  and threshold L1 at QPQ2 = 0.9924456028688181 , expected FN probability [31m 0.015051725346348133 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  600
+    Using historyLen at QPQ =  600
+    Using historyLen L0 at QPQ2 = 2400  and historyLen L1 at QPQ2 = 2400
+    Using threshold at QPQ = 0.984100250022662 , expected FN probability [31m 0.015899749977338007 [0m
+    Using threshold L0 at QPQ2 = 0.9920182710125162  and threshold L1 at QPQ2 = 0.9920182710125162 , expected FN probability [31m 0.015899749977338007 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  500
+    Using historyLen at QPQ =  500
+    Using historyLen L0 at QPQ2 = 2000  and historyLen L1 at QPQ2 = 2000
+    Using threshold at QPQ = 0.9830359017899089 , expected FN probability [31m 0.01696409821009115 [0m
+    Using threshold L0 at QPQ2 = 0.9914816699212895  and threshold L1 at QPQ2 = 0.9914816699212895 , expected FN probability [31m 0.01696409821009115 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  1000
+    Using historyLen at QPQ =  1000
+    Using historyLen L0 at QPQ2 = 4000  and historyLen L1 at QPQ2 = 4000
+    Using threshold at QPQ = 0.9867422157046601 , expected FN probability [31m 0.013257784295339858 [0m
+    Using threshold L0 at QPQ2 = 0.9933489898845522  and threshold L1 at QPQ2 = 0.9933489898845522 , expected FN probability [31m 0.013257784295339747 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  900
+    Using historyLen at QPQ =  900
+    Using historyLen L0 at QPQ2 = 3600  and historyLen L1 at QPQ2 = 3600
+    Using threshold at QPQ = 0.9862356087716391 , expected FN probability [31m 0.013764391228360928 [0m
+    Using threshold L0 at QPQ2 = 0.9930939576755258  and threshold L1 at QPQ2 = 0.9930939576755258 , expected FN probability [31m 0.01376439122836104 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  800
+    Using historyLen at QPQ =  800
+    Using historyLen L0 at QPQ2 = 3200  and historyLen L1 at QPQ2 = 3200
+    Using threshold at QPQ = 0.9856464869004811 , expected FN probability [31m 0.014353513099518933 [0m
+    Using threshold L0 at QPQ2 = 0.9927973040356632  and threshold L1 at QPQ2 = 0.9927973040356632 , expected FN probability [31m 0.014353513099518822 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  700
+    Using historyLen at QPQ =  700
+    Using historyLen L0 at QPQ2 = 2800  and historyLen L1 at QPQ2 = 2800
+    Using threshold at QPQ = 0.9849482746536519 , expected FN probability [31m 0.015051725346348133 [0m
+    Using threshold L0 at QPQ2 = 0.9924456028688181  and threshold L1 at QPQ2 = 0.9924456028688181 , expected FN probability [31m 0.015051725346348133 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  600
+    Using historyLen at QPQ =  600
+    Using historyLen L0 at QPQ2 = 2400  and historyLen L1 at QPQ2 = 2400
+    Using threshold at QPQ = 0.984100250022662 , expected FN probability [31m 0.015899749977338007 [0m
+    Using threshold L0 at QPQ2 = 0.9920182710125162  and threshold L1 at QPQ2 = 0.9920182710125162 , expected FN probability [31m 0.015899749977338007 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  500
+    Using historyLen at QPQ =  500
+    Using historyLen L0 at QPQ2 = 2000  and historyLen L1 at QPQ2 = 2000
+    Using threshold at QPQ = 0.9830359017899089 , expected FN probability [31m 0.01696409821009115 [0m
+    Using threshold L0 at QPQ2 = 0.9914816699212895  and threshold L1 at QPQ2 = 0.9914816699212895 , expected FN probability [31m 0.01696409821009115 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  1000
+    Using historyLen at QPQ =  1000
+    Using historyLen L0 at QPQ2 = 4000  and historyLen L1 at QPQ2 = 4000
+    Using threshold at QPQ = 0.9867422157046601 , expected FN probability [31m 0.013257784295339858 [0m
+    Using threshold L0 at QPQ2 = 0.9933489898845522  and threshold L1 at QPQ2 = 0.9933489898845522 , expected FN probability [31m 0.013257784295339747 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  900
+    Using historyLen at QPQ =  900
+    Using historyLen L0 at QPQ2 = 3600  and historyLen L1 at QPQ2 = 3600
+    Using threshold at QPQ = 0.9862356087716391 , expected FN probability [31m 0.013764391228360928 [0m
+    Using threshold L0 at QPQ2 = 0.9930939576755258  and threshold L1 at QPQ2 = 0.9930939576755258 , expected FN probability [31m 0.01376439122836104 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  800
+    Using historyLen at QPQ =  800
+    Using historyLen L0 at QPQ2 = 3200  and historyLen L1 at QPQ2 = 3200
+    Using threshold at QPQ = 0.9856464869004811 , expected FN probability [31m 0.014353513099518933 [0m
+    Using threshold L0 at QPQ2 = 0.9927973040356632  and threshold L1 at QPQ2 = 0.9927973040356632 , expected FN probability [31m 0.014353513099518822 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  700
+    Using historyLen at QPQ =  700
+    Using historyLen L0 at QPQ2 = 2800  and historyLen L1 at QPQ2 = 2800
+    Using threshold at QPQ = 0.9849482746536519 , expected FN probability [31m 0.015051725346348133 [0m
+    Using threshold L0 at QPQ2 = 0.9924456028688181  and threshold L1 at QPQ2 = 0.9924456028688181 , expected FN probability [31m 0.015051725346348133 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  600
+    Using historyLen at QPQ =  600
+    Using historyLen L0 at QPQ2 = 2400  and historyLen L1 at QPQ2 = 2400
+    Using threshold at QPQ = 0.984100250022662 , expected FN probability [31m 0.015899749977338007 [0m
+    Using threshold L0 at QPQ2 = 0.9920182710125162  and threshold L1 at QPQ2 = 0.9920182710125162 , expected FN probability [31m 0.015899749977338007 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  500
+    Using historyLen at QPQ =  500
+    Using historyLen L0 at QPQ2 = 2000  and historyLen L1 at QPQ2 = 2000
+    Using threshold at QPQ = 0.9830359017899089 , expected FN probability [31m 0.01696409821009115 [0m
+    Using threshold L0 at QPQ2 = 0.9914816699212895  and threshold L1 at QPQ2 = 0.9914816699212895 , expected FN probability [31m 0.01696409821009115 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  1000
+    Using historyLen at QPQ =  1000
+    Using historyLen L0 at QPQ2 = 4000  and historyLen L1 at QPQ2 = 4000
+    Using threshold at QPQ = 0.9867422157046601 , expected FN probability [31m 0.013257784295339858 [0m
+    Using threshold L0 at QPQ2 = 0.9933489898845522  and threshold L1 at QPQ2 = 0.9933489898845522 , expected FN probability [31m 0.013257784295339747 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  900
+    Using historyLen at QPQ =  900
+    Using historyLen L0 at QPQ2 = 3600  and historyLen L1 at QPQ2 = 3600
+    Using threshold at QPQ = 0.9862356087716391 , expected FN probability [31m 0.013764391228360928 [0m
+    Using threshold L0 at QPQ2 = 0.9930939576755258  and threshold L1 at QPQ2 = 0.9930939576755258 , expected FN probability [31m 0.01376439122836104 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  800
+    Using historyLen at QPQ =  800
+    Using historyLen L0 at QPQ2 = 3200  and historyLen L1 at QPQ2 = 3200
+    Using threshold at QPQ = 0.9856464869004811 , expected FN probability [31m 0.014353513099518933 [0m
+    Using threshold L0 at QPQ2 = 0.9927973040356632  and threshold L1 at QPQ2 = 0.9927973040356632 , expected FN probability [31m 0.014353513099518822 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  700
+    Using historyLen at QPQ =  700
+    Using historyLen L0 at QPQ2 = 2800  and historyLen L1 at QPQ2 = 2800
+    Using threshold at QPQ = 0.9849482746536519 , expected FN probability [31m 0.015051725346348133 [0m
+    Using threshold L0 at QPQ2 = 0.9924456028688181  and threshold L1 at QPQ2 = 0.9924456028688181 , expected FN probability [31m 0.015051725346348133 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  600
+    Using historyLen at QPQ =  600
+    Using historyLen L0 at QPQ2 = 2400  and historyLen L1 at QPQ2 = 2400
+    Using threshold at QPQ = 0.984100250022662 , expected FN probability [31m 0.015899749977338007 [0m
+    Using threshold L0 at QPQ2 = 0.9920182710125162  and threshold L1 at QPQ2 = 0.9920182710125162 , expected FN probability [31m 0.015899749977338007 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  500
+    Using historyLen at QPQ =  500
+    Using historyLen L0 at QPQ2 = 2000  and historyLen L1 at QPQ2 = 2000
+    Using threshold at QPQ = 0.9830359017899089 , expected FN probability [31m 0.01696409821009115 [0m
+    Using threshold L0 at QPQ2 = 0.9914816699212895  and threshold L1 at QPQ2 = 0.9914816699212895 , expected FN probability [31m 0.01696409821009115 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  1000
+    Using historyLen at QPQ =  1000
+    Using historyLen L0 at QPQ2 = 4000  and historyLen L1 at QPQ2 = 4000
+    Using threshold at QPQ = 0.9867422157046601 , expected FN probability [31m 0.013257784295339858 [0m
+    Using threshold L0 at QPQ2 = 0.9933489898845522  and threshold L1 at QPQ2 = 0.9933489898845522 , expected FN probability [31m 0.013257784295339747 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  900
+    Using historyLen at QPQ =  900
+    Using historyLen L0 at QPQ2 = 3600  and historyLen L1 at QPQ2 = 3600
+    Using threshold at QPQ = 0.9862356087716391 , expected FN probability [31m 0.013764391228360928 [0m
+    Using threshold L0 at QPQ2 = 0.9930939576755258  and threshold L1 at QPQ2 = 0.9930939576755258 , expected FN probability [31m 0.01376439122836104 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  800
+    Using historyLen at QPQ =  800
+    Using historyLen L0 at QPQ2 = 3200  and historyLen L1 at QPQ2 = 3200
+    Using threshold at QPQ = 0.9856464869004811 , expected FN probability [31m 0.014353513099518933 [0m
+    Using threshold L0 at QPQ2 = 0.9927973040356632  and threshold L1 at QPQ2 = 0.9927973040356632 , expected FN probability [31m 0.014353513099518822 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  700
+    Using historyLen at QPQ =  700
+    Using historyLen L0 at QPQ2 = 2800  and historyLen L1 at QPQ2 = 2800
+    Using threshold at QPQ = 0.9849482746536519 , expected FN probability [31m 0.015051725346348133 [0m
+    Using threshold L0 at QPQ2 = 0.9924456028688181  and threshold L1 at QPQ2 = 0.9924456028688181 , expected FN probability [31m 0.015051725346348133 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  600
+    Using historyLen at QPQ =  600
+    Using historyLen L0 at QPQ2 = 2400  and historyLen L1 at QPQ2 = 2400
+    Using threshold at QPQ = 0.984100250022662 , expected FN probability [31m 0.015899749977338007 [0m
+    Using threshold L0 at QPQ2 = 0.9920182710125162  and threshold L1 at QPQ2 = 0.9920182710125162 , expected FN probability [31m 0.015899749977338007 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  500
+    Using historyLen at QPQ =  500
+    Using historyLen L0 at QPQ2 = 2000  and historyLen L1 at QPQ2 = 2000
+    Using threshold at QPQ = 0.9830359017899089 , expected FN probability [31m 0.01696409821009115 [0m
+    Using threshold L0 at QPQ2 = 0.9914816699212895  and threshold L1 at QPQ2 = 0.9914816699212895 , expected FN probability [31m 0.01696409821009115 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  1000
+    Using historyLen at QPQ =  1000
+    Using historyLen L0 at QPQ2 = 4000  and historyLen L1 at QPQ2 = 4000
+    Using threshold at QPQ = 0.9867422157046601 , expected FN probability [31m 0.013257784295339858 [0m
+    Using threshold L0 at QPQ2 = 0.9933489898845522  and threshold L1 at QPQ2 = 0.9933489898845522 , expected FN probability [31m 0.013257784295339747 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  900
+    Using historyLen at QPQ =  900
+    Using historyLen L0 at QPQ2 = 3600  and historyLen L1 at QPQ2 = 3600
+    Using threshold at QPQ = 0.9862356087716391 , expected FN probability [31m 0.013764391228360928 [0m
+    Using threshold L0 at QPQ2 = 0.9930939576755258  and threshold L1 at QPQ2 = 0.9930939576755258 , expected FN probability [31m 0.01376439122836104 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  800
+    Using historyLen at QPQ =  800
+    Using historyLen L0 at QPQ2 = 3200  and historyLen L1 at QPQ2 = 3200
+    Using threshold at QPQ = 0.9856464869004811 , expected FN probability [31m 0.014353513099518933 [0m
+    Using threshold L0 at QPQ2 = 0.9927973040356632  and threshold L1 at QPQ2 = 0.9927973040356632 , expected FN probability [31m 0.014353513099518822 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  700
+    Using historyLen at QPQ =  700
+    Using historyLen L0 at QPQ2 = 2800  and historyLen L1 at QPQ2 = 2800
+    Using threshold at QPQ = 0.9849482746536519 , expected FN probability [31m 0.015051725346348133 [0m
+    Using threshold L0 at QPQ2 = 0.9924456028688181  and threshold L1 at QPQ2 = 0.9924456028688181 , expected FN probability [31m 0.015051725346348133 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  600
+    Using historyLen at QPQ =  600
+    Using historyLen L0 at QPQ2 = 2400  and historyLen L1 at QPQ2 = 2400
+    Using threshold at QPQ = 0.984100250022662 , expected FN probability [31m 0.015899749977338007 [0m
+    Using threshold L0 at QPQ2 = 0.9920182710125162  and threshold L1 at QPQ2 = 0.9920182710125162 , expected FN probability [31m 0.015899749977338007 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  500
+    Using historyLen at QPQ =  500
+    Using historyLen L0 at QPQ2 = 2000  and historyLen L1 at QPQ2 = 2000
+    Using threshold at QPQ = 0.9830359017899089 , expected FN probability [31m 0.01696409821009115 [0m
+    Using threshold L0 at QPQ2 = 0.9914816699212895  and threshold L1 at QPQ2 = 0.9914816699212895 , expected FN probability [31m 0.01696409821009115 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  1000
+    Using historyLen at QPQ =  1000
+    Using historyLen L0 at QPQ2 = 4000  and historyLen L1 at QPQ2 = 4000
+    Using threshold at QPQ = 0.9867422157046601 , expected FN probability [31m 0.013257784295339858 [0m
+    Using threshold L0 at QPQ2 = 0.9933489898845522  and threshold L1 at QPQ2 = 0.9933489898845522 , expected FN probability [31m 0.013257784295339747 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  900
+    Using historyLen at QPQ =  900
+    Using historyLen L0 at QPQ2 = 3600  and historyLen L1 at QPQ2 = 3600
+    Using threshold at QPQ = 0.9862356087716391 , expected FN probability [31m 0.013764391228360928 [0m
+    Using threshold L0 at QPQ2 = 0.9930939576755258  and threshold L1 at QPQ2 = 0.9930939576755258 , expected FN probability [31m 0.01376439122836104 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  800
+    Using historyLen at QPQ =  800
+    Using historyLen L0 at QPQ2 = 3200  and historyLen L1 at QPQ2 = 3200
+    Using threshold at QPQ = 0.9856464869004811 , expected FN probability [31m 0.014353513099518933 [0m
+    Using threshold L0 at QPQ2 = 0.9927973040356632  and threshold L1 at QPQ2 = 0.9927973040356632 , expected FN probability [31m 0.014353513099518822 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  700
+    Using historyLen at QPQ =  700
+    Using historyLen L0 at QPQ2 = 2800  and historyLen L1 at QPQ2 = 2800
+    Using threshold at QPQ = 0.9849482746536519 , expected FN probability [31m 0.015051725346348133 [0m
+    Using threshold L0 at QPQ2 = 0.9924456028688181  and threshold L1 at QPQ2 = 0.9924456028688181 , expected FN probability [31m 0.015051725346348133 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  600
+    Using historyLen at QPQ =  600
+    Using historyLen L0 at QPQ2 = 2400  and historyLen L1 at QPQ2 = 2400
+    Using threshold at QPQ = 0.984100250022662 , expected FN probability [31m 0.015899749977338007 [0m
+    Using threshold L0 at QPQ2 = 0.9920182710125162  and threshold L1 at QPQ2 = 0.9920182710125162 , expected FN probability [31m 0.015899749977338007 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  500
+    Using historyLen at QPQ =  500
+    Using historyLen L0 at QPQ2 = 2000  and historyLen L1 at QPQ2 = 2000
+    Using threshold at QPQ = 0.9830359017899089 , expected FN probability [31m 0.01696409821009115 [0m
+    Using threshold L0 at QPQ2 = 0.9914816699212895  and threshold L1 at QPQ2 = 0.9914816699212895 , expected FN probability [31m 0.01696409821009115 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  1000
+    Using historyLen at QPQ =  1000
+    Using historyLen L0 at QPQ2 = 4000  and historyLen L1 at QPQ2 = 4000
+    Using threshold at QPQ = 0.9867422157046601 , expected FN probability [31m 0.013257784295339858 [0m
+    Using threshold L0 at QPQ2 = 0.9933489898845522  and threshold L1 at QPQ2 = 0.9933489898845522 , expected FN probability [31m 0.013257784295339747 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  900
+    Using historyLen at QPQ =  900
+    Using historyLen L0 at QPQ2 = 3600  and historyLen L1 at QPQ2 = 3600
+    Using threshold at QPQ = 0.9862356087716391 , expected FN probability [31m 0.013764391228360928 [0m
+    Using threshold L0 at QPQ2 = 0.9930939576755258  and threshold L1 at QPQ2 = 0.9930939576755258 , expected FN probability [31m 0.01376439122836104 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  800
+    Using historyLen at QPQ =  800
+    Using historyLen L0 at QPQ2 = 3200  and historyLen L1 at QPQ2 = 3200
+    Using threshold at QPQ = 0.9856464869004811 , expected FN probability [31m 0.014353513099518933 [0m
+    Using threshold L0 at QPQ2 = 0.9927973040356632  and threshold L1 at QPQ2 = 0.9927973040356632 , expected FN probability [31m 0.014353513099518822 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  700
+    Using historyLen at QPQ =  700
+    Using historyLen L0 at QPQ2 = 2800  and historyLen L1 at QPQ2 = 2800
+    Using threshold at QPQ = 0.9849482746536519 , expected FN probability [31m 0.015051725346348133 [0m
+    Using threshold L0 at QPQ2 = 0.9924456028688181  and threshold L1 at QPQ2 = 0.9924456028688181 , expected FN probability [31m 0.015051725346348133 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  600
+    Using historyLen at QPQ =  600
+    Using historyLen L0 at QPQ2 = 2400  and historyLen L1 at QPQ2 = 2400
+    Using threshold at QPQ = 0.984100250022662 , expected FN probability [31m 0.015899749977338007 [0m
+    Using threshold L0 at QPQ2 = 0.9920182710125162  and threshold L1 at QPQ2 = 0.9920182710125162 , expected FN probability [31m 0.015899749977338007 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  500
+    Using historyLen at QPQ =  500
+    Using historyLen L0 at QPQ2 = 2000  and historyLen L1 at QPQ2 = 2000
+    Using threshold at QPQ = 0.9830359017899089 , expected FN probability [31m 0.01696409821009115 [0m
+    Using threshold L0 at QPQ2 = 0.9914816699212895  and threshold L1 at QPQ2 = 0.9914816699212895 , expected FN probability [31m 0.01696409821009115 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  1000
+    Using historyLen at QPQ =  1000
+    Using historyLen L0 at QPQ2 = 4000  and historyLen L1 at QPQ2 = 4000
+    Using threshold at QPQ = 0.9867422157046601 , expected FN probability [31m 0.013257784295339858 [0m
+    Using threshold L0 at QPQ2 = 0.9933489898845522  and threshold L1 at QPQ2 = 0.9933489898845522 , expected FN probability [31m 0.013257784295339747 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  900
+    Using historyLen at QPQ =  900
+    Using historyLen L0 at QPQ2 = 3600  and historyLen L1 at QPQ2 = 3600
+    Using threshold at QPQ = 0.9862356087716391 , expected FN probability [31m 0.013764391228360928 [0m
+    Using threshold L0 at QPQ2 = 0.9930939576755258  and threshold L1 at QPQ2 = 0.9930939576755258 , expected FN probability [31m 0.01376439122836104 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  800
+    Using historyLen at QPQ =  800
+    Using historyLen L0 at QPQ2 = 3200  and historyLen L1 at QPQ2 = 3200
+    Using threshold at QPQ = 0.9856464869004811 , expected FN probability [31m 0.014353513099518933 [0m
+    Using threshold L0 at QPQ2 = 0.9927973040356632  and threshold L1 at QPQ2 = 0.9927973040356632 , expected FN probability [31m 0.014353513099518822 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  700
+    Using historyLen at QPQ =  700
+    Using historyLen L0 at QPQ2 = 2800  and historyLen L1 at QPQ2 = 2800
+    Using threshold at QPQ = 0.9849482746536519 , expected FN probability [31m 0.015051725346348133 [0m
+    Using threshold L0 at QPQ2 = 0.9924456028688181  and threshold L1 at QPQ2 = 0.9924456028688181 , expected FN probability [31m 0.015051725346348133 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  600
+    Using historyLen at QPQ =  600
+    Using historyLen L0 at QPQ2 = 2400  and historyLen L1 at QPQ2 = 2400
+    Using threshold at QPQ = 0.984100250022662 , expected FN probability [31m 0.015899749977338007 [0m
+    Using threshold L0 at QPQ2 = 0.9920182710125162  and threshold L1 at QPQ2 = 0.9920182710125162 , expected FN probability [31m 0.015899749977338007 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  500
+    Using historyLen at QPQ =  500
+    Using historyLen L0 at QPQ2 = 2000  and historyLen L1 at QPQ2 = 2000
+    Using threshold at QPQ = 0.9830359017899089 , expected FN probability [31m 0.01696409821009115 [0m
+    Using threshold L0 at QPQ2 = 0.9914816699212895  and threshold L1 at QPQ2 = 0.9914816699212895 , expected FN probability [31m 0.01696409821009115 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  1000
+    Using historyLen at QPQ =  1000
+    Using historyLen L0 at QPQ2 = 4000  and historyLen L1 at QPQ2 = 4000
+    Using threshold at QPQ = 0.9867422157046601 , expected FN probability [31m 0.013257784295339858 [0m
+    Using threshold L0 at QPQ2 = 0.9933489898845522  and threshold L1 at QPQ2 = 0.9933489898845522 , expected FN probability [31m 0.013257784295339747 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  900
+    Using historyLen at QPQ =  900
+    Using historyLen L0 at QPQ2 = 3600  and historyLen L1 at QPQ2 = 3600
+    Using threshold at QPQ = 0.9862356087716391 , expected FN probability [31m 0.013764391228360928 [0m
+    Using threshold L0 at QPQ2 = 0.9930939576755258  and threshold L1 at QPQ2 = 0.9930939576755258 , expected FN probability [31m 0.01376439122836104 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  800
+    Using historyLen at QPQ =  800
+    Using historyLen L0 at QPQ2 = 3200  and historyLen L1 at QPQ2 = 3200
+    Using threshold at QPQ = 0.9856464869004811 , expected FN probability [31m 0.014353513099518933 [0m
+    Using threshold L0 at QPQ2 = 0.9927973040356632  and threshold L1 at QPQ2 = 0.9927973040356632 , expected FN probability [31m 0.014353513099518822 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  700
+    Using historyLen at QPQ =  700
+    Using historyLen L0 at QPQ2 = 2800  and historyLen L1 at QPQ2 = 2800
+    Using threshold at QPQ = 0.9849482746536519 , expected FN probability [31m 0.015051725346348133 [0m
+    Using threshold L0 at QPQ2 = 0.9924456028688181  and threshold L1 at QPQ2 = 0.9924456028688181 , expected FN probability [31m 0.015051725346348133 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  600
+    Using historyLen at QPQ =  600
+    Using historyLen L0 at QPQ2 = 2400  and historyLen L1 at QPQ2 = 2400
+    Using threshold at QPQ = 0.984100250022662 , expected FN probability [31m 0.015899749977338007 [0m
+    Using threshold L0 at QPQ2 = 0.9920182710125162  and threshold L1 at QPQ2 = 0.9920182710125162 , expected FN probability [31m 0.015899749977338007 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  500
+    Using historyLen at QPQ =  500
+    Using historyLen L0 at QPQ2 = 2000  and historyLen L1 at QPQ2 = 2000
+    Using threshold at QPQ = 0.9830359017899089 , expected FN probability [31m 0.01696409821009115 [0m
+    Using threshold L0 at QPQ2 = 0.9914816699212895  and threshold L1 at QPQ2 = 0.9914816699212895 , expected FN probability [31m 0.01696409821009115 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  1000
+    Using historyLen at QPQ =  1000
+    Using historyLen L0 at QPQ2 = 4000  and historyLen L1 at QPQ2 = 4000
+    Using threshold at QPQ = 0.9867422157046601 , expected FN probability [31m 0.013257784295339858 [0m
+    Using threshold L0 at QPQ2 = 0.9933489898845522  and threshold L1 at QPQ2 = 0.9933489898845522 , expected FN probability [31m 0.013257784295339747 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  900
+    Using historyLen at QPQ =  900
+    Using historyLen L0 at QPQ2 = 3600  and historyLen L1 at QPQ2 = 3600
+    Using threshold at QPQ = 0.9862356087716391 , expected FN probability [31m 0.013764391228360928 [0m
+    Using threshold L0 at QPQ2 = 0.9930939576755258  and threshold L1 at QPQ2 = 0.9930939576755258 , expected FN probability [31m 0.01376439122836104 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  800
+    Using historyLen at QPQ =  800
+    Using historyLen L0 at QPQ2 = 3200  and historyLen L1 at QPQ2 = 3200
+    Using threshold at QPQ = 0.9856464869004811 , expected FN probability [31m 0.014353513099518933 [0m
+    Using threshold L0 at QPQ2 = 0.9927973040356632  and threshold L1 at QPQ2 = 0.9927973040356632 , expected FN probability [31m 0.014353513099518822 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  700
+    Using historyLen at QPQ =  700
+    Using historyLen L0 at QPQ2 = 2800  and historyLen L1 at QPQ2 = 2800
+    Using threshold at QPQ = 0.9849482746536519 , expected FN probability [31m 0.015051725346348133 [0m
+    Using threshold L0 at QPQ2 = 0.9924456028688181  and threshold L1 at QPQ2 = 0.9924456028688181 , expected FN probability [31m 0.015051725346348133 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  600
+    Using historyLen at QPQ =  600
+    Using historyLen L0 at QPQ2 = 2400  and historyLen L1 at QPQ2 = 2400
+    Using threshold at QPQ = 0.984100250022662 , expected FN probability [31m 0.015899749977338007 [0m
+    Using threshold L0 at QPQ2 = 0.9920182710125162  and threshold L1 at QPQ2 = 0.9920182710125162 , expected FN probability [31m 0.015899749977338007 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  500
+    Using historyLen at QPQ =  500
+    Using historyLen L0 at QPQ2 = 2000  and historyLen L1 at QPQ2 = 2000
+    Using threshold at QPQ = 0.9830359017899089 , expected FN probability [31m 0.01696409821009115 [0m
+    Using threshold L0 at QPQ2 = 0.9914816699212895  and threshold L1 at QPQ2 = 0.9914816699212895 , expected FN probability [31m 0.01696409821009115 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  1000
+    Using historyLen at QPQ =  1000
+    Using historyLen L0 at QPQ2 = 4000  and historyLen L1 at QPQ2 = 4000
+    Using threshold at QPQ = 0.9867422157046601 , expected FN probability [31m 0.013257784295339858 [0m
+    Using threshold L0 at QPQ2 = 0.9933489898845522  and threshold L1 at QPQ2 = 0.9933489898845522 , expected FN probability [31m 0.013257784295339747 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  900
+    Using historyLen at QPQ =  900
+    Using historyLen L0 at QPQ2 = 3600  and historyLen L1 at QPQ2 = 3600
+    Using threshold at QPQ = 0.9862356087716391 , expected FN probability [31m 0.013764391228360928 [0m
+    Using threshold L0 at QPQ2 = 0.9930939576755258  and threshold L1 at QPQ2 = 0.9930939576755258 , expected FN probability [31m 0.01376439122836104 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  800
+    Using historyLen at QPQ =  800
+    Using historyLen L0 at QPQ2 = 3200  and historyLen L1 at QPQ2 = 3200
+    Using threshold at QPQ = 0.9856464869004811 , expected FN probability [31m 0.014353513099518933 [0m
+    Using threshold L0 at QPQ2 = 0.9927973040356632  and threshold L1 at QPQ2 = 0.9927973040356632 , expected FN probability [31m 0.014353513099518822 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  700
+    Using historyLen at QPQ =  700
+    Using historyLen L0 at QPQ2 = 2800  and historyLen L1 at QPQ2 = 2800
+    Using threshold at QPQ = 0.9849482746536519 , expected FN probability [31m 0.015051725346348133 [0m
+    Using threshold L0 at QPQ2 = 0.9924456028688181  and threshold L1 at QPQ2 = 0.9924456028688181 , expected FN probability [31m 0.015051725346348133 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  600
+    Using historyLen at QPQ =  600
+    Using historyLen L0 at QPQ2 = 2400  and historyLen L1 at QPQ2 = 2400
+    Using threshold at QPQ = 0.984100250022662 , expected FN probability [31m 0.015899749977338007 [0m
+    Using threshold L0 at QPQ2 = 0.9920182710125162  and threshold L1 at QPQ2 = 0.9920182710125162 , expected FN probability [31m 0.015899749977338007 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  500
+    Using historyLen at QPQ =  500
+    Using historyLen L0 at QPQ2 = 2000  and historyLen L1 at QPQ2 = 2000
+    Using threshold at QPQ = 0.9830359017899089 , expected FN probability [31m 0.01696409821009115 [0m
+    Using threshold L0 at QPQ2 = 0.9914816699212895  and threshold L1 at QPQ2 = 0.9914816699212895 , expected FN probability [31m 0.01696409821009115 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  1000
+    Using historyLen at QPQ =  1000
+    Using historyLen L0 at QPQ2 = 4000  and historyLen L1 at QPQ2 = 4000
+    Using threshold at QPQ = 0.9867422157046601 , expected FN probability [31m 0.013257784295339858 [0m
+    Using threshold L0 at QPQ2 = 0.9933489898845522  and threshold L1 at QPQ2 = 0.9933489898845522 , expected FN probability [31m 0.013257784295339747 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  900
+    Using historyLen at QPQ =  900
+    Using historyLen L0 at QPQ2 = 3600  and historyLen L1 at QPQ2 = 3600
+    Using threshold at QPQ = 0.9862356087716391 , expected FN probability [31m 0.013764391228360928 [0m
+    Using threshold L0 at QPQ2 = 0.9930939576755258  and threshold L1 at QPQ2 = 0.9930939576755258 , expected FN probability [31m 0.01376439122836104 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  800
+    Using historyLen at QPQ =  800
+    Using historyLen L0 at QPQ2 = 3200  and historyLen L1 at QPQ2 = 3200
+    Using threshold at QPQ = 0.9856464869004811 , expected FN probability [31m 0.014353513099518933 [0m
+    Using threshold L0 at QPQ2 = 0.9927973040356632  and threshold L1 at QPQ2 = 0.9927973040356632 , expected FN probability [31m 0.014353513099518822 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  700
+    Using historyLen at QPQ =  700
+    Using historyLen L0 at QPQ2 = 2800  and historyLen L1 at QPQ2 = 2800
+    Using threshold at QPQ = 0.9849482746536519 , expected FN probability [31m 0.015051725346348133 [0m
+    Using threshold L0 at QPQ2 = 0.9924456028688181  and threshold L1 at QPQ2 = 0.9924456028688181 , expected FN probability [31m 0.015051725346348133 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  600
+    Using historyLen at QPQ =  600
+    Using historyLen L0 at QPQ2 = 2400  and historyLen L1 at QPQ2 = 2400
+    Using threshold at QPQ = 0.984100250022662 , expected FN probability [31m 0.015899749977338007 [0m
+    Using threshold L0 at QPQ2 = 0.9920182710125162  and threshold L1 at QPQ2 = 0.9920182710125162 , expected FN probability [31m 0.015899749977338007 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  500
+    Using historyLen at QPQ =  500
+    Using historyLen L0 at QPQ2 = 2000  and historyLen L1 at QPQ2 = 2000
+    Using threshold at QPQ = 0.9830359017899089 , expected FN probability [31m 0.01696409821009115 [0m
+    Using threshold L0 at QPQ2 = 0.9914816699212895  and threshold L1 at QPQ2 = 0.9914816699212895 , expected FN probability [31m 0.01696409821009115 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  1000
+    Using historyLen at QPQ =  1000
+    Using historyLen L0 at QPQ2 = 4000  and historyLen L1 at QPQ2 = 4000
+    Using threshold at QPQ = 0.9867422157046601 , expected FN probability [31m 0.013257784295339858 [0m
+    Using threshold L0 at QPQ2 = 0.9933489898845522  and threshold L1 at QPQ2 = 0.9933489898845522 , expected FN probability [31m 0.013257784295339747 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  900
+    Using historyLen at QPQ =  900
+    Using historyLen L0 at QPQ2 = 3600  and historyLen L1 at QPQ2 = 3600
+    Using threshold at QPQ = 0.9862356087716391 , expected FN probability [31m 0.013764391228360928 [0m
+    Using threshold L0 at QPQ2 = 0.9930939576755258  and threshold L1 at QPQ2 = 0.9930939576755258 , expected FN probability [31m 0.01376439122836104 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  800
+    Using historyLen at QPQ =  800
+    Using historyLen L0 at QPQ2 = 3200  and historyLen L1 at QPQ2 = 3200
+    Using threshold at QPQ = 0.9856464869004811 , expected FN probability [31m 0.014353513099518933 [0m
+    Using threshold L0 at QPQ2 = 0.9927973040356632  and threshold L1 at QPQ2 = 0.9927973040356632 , expected FN probability [31m 0.014353513099518822 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  700
+    Using historyLen at QPQ =  700
+    Using historyLen L0 at QPQ2 = 2800  and historyLen L1 at QPQ2 = 2800
+    Using threshold at QPQ = 0.9849482746536519 , expected FN probability [31m 0.015051725346348133 [0m
+    Using threshold L0 at QPQ2 = 0.9924456028688181  and threshold L1 at QPQ2 = 0.9924456028688181 , expected FN probability [31m 0.015051725346348133 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  600
+    Using historyLen at QPQ =  600
+    Using historyLen L0 at QPQ2 = 2400  and historyLen L1 at QPQ2 = 2400
+    Using threshold at QPQ = 0.984100250022662 , expected FN probability [31m 0.015899749977338007 [0m
+    Using threshold L0 at QPQ2 = 0.9920182710125162  and threshold L1 at QPQ2 = 0.9920182710125162 , expected FN probability [31m 0.015899749977338007 [0m
+Simulation number = 0
+Simulation using numplayers = 64  numclusters =  8  numLiars =  1  betafactor =  1.05  and historyLen =  500
+    Using historyLen at QPQ =  500
+    Using historyLen L0 at QPQ2 = 2000  and historyLen L1 at QPQ2 = 2000
+    Using threshold at QPQ = 0.9830359017899089 , expected FN probability [31m 0.01696409821009115 [0m
+    Using threshold L0 at QPQ2 = 0.9914816699212895  and threshold L1 at QPQ2 = 0.9914816699212895 , expected FN probability [31m 0.01696409821009115 [0m
+Simulation number = 0
