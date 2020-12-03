@@ -3,7 +3,7 @@ Quid Pro Quo Project
 
 The following files contain the algorithms of
 
-A fair and scalable mechanism forresource allocation: the multilevel QPQ approach by
+**A fair and scalable mechanism for resource allocation: the multilevel QPQ approach** by
 J. DONCEL, L. DE LA PISA, A. SANTOS, AND A. FERNÁNDEZ ANTA.
 
 - QPQ.ipynb: Jupiter lab notebook with the code of the basic QPQ algorithm.
